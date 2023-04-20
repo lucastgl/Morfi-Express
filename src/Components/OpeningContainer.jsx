@@ -5,7 +5,7 @@ import Header from './Header'
 const OpeningContainer = () => {
   return (
     <div>
-        <Navbar/>
+        {/* <Navbar/> */}
         <Header/>
     </div>
   )

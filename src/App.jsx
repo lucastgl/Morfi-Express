@@ -15,13 +15,13 @@ function App() {
   return (
     <div>
       <OpeningContainer/>
-      <Gallery/>
+      {/* <Gallery/>
       <About/>
       <Steps/>
       <Team/>
       <Testimonials/>
       <Form/>
-      <Footer/>
+      <Footer/> */}
     </div>
   )
 }
