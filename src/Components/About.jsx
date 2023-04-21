@@ -1,10 +1,10 @@
 import React from 'react'
-import {AboutContainer, FirstTitle, Parrafo} from '../Styles/AboutComponents'
+import {AboutContainer, ThirdtTitle, Parrafo} from '../Styles/AboutComponents'
 
 const About = () => {
   return (
     <AboutContainer>
-      <FirstTitle>¿Quiénes Somos?</FirstTitle>
+      <ThirdtTitle>¿Quiénes Somos?</ThirdtTitle>
       <Parrafo>
         Somos una marca de comida saludable que te brinda practicidad y tiempo 
         a la hora de comer, nuestro objetivo es brindarte una alternativa sana 

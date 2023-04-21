@@ -13,7 +13,7 @@ export const AboutContainer = styled.div`
 `;
 
 
-export const FirstTitle = styled.h2`
+export const ThirdtTitle = styled.h2`
     font-family: 'Barlow', sans-serif;
     font-style: italic;
     font-weight: 400;

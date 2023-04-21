@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './App.css'
 import OpeningContainer from './Components/OpeningContainer'
 import Gallery from './Components/Gallery'
@@ -8,6 +8,7 @@ import Team from './Components/Team'
 import Testimonials from './Components/Testimonials'
 import Form from './Components/Form'
 import Footer from './Components/Footer'
+import WaterMark from './Components/WaterMark'
 
 
 function App() {
@@ -16,12 +17,15 @@ function App() {
     <div>
       <OpeningContainer/>
       <About/>
-      {/* <Gallery/>
       <Steps/>
+      <Footer/> 
+      <WaterMark/>
+      {/* 
+      <Gallery/>
       <Team/>
       <Testimonials/>
       <Form/>
-      <Footer/> */}
+      */}
     </div>
   )
 }
