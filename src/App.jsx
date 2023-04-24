@@ -18,13 +18,13 @@ function App() {
       <OpeningContainer/>
       <About/>
       <Steps/>
+      <Form/>
       <Footer/> 
       <WaterMark/>
       {/* 
       <Gallery/>
       <Team/>
       <Testimonials/>
-      <Form/>
       */}
     </div>
   )

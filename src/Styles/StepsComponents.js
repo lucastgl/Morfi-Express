@@ -1,4 +1,8 @@
 import styled from 'styled-components';
+import step1 from "../imgs/IconoFormulario.png"
+import step2 from "../imgs/IconoPreparacion.png"
+import step3 from "../imgs/IconoObjetivo.png"
+import step4 from "../imgs/IconoVianda.png"
 
 export const StepsContainer = styled.div`
     height: 85vh;
@@ -25,8 +29,11 @@ export const StepsDetail = styled.div`
 export const PicContainer = styled.div`
     height: 100px;
     min-width: 130px;
-    background-color: #D9D9D9;
-    border-radius: 15px;
+    background: url(${props => props.stepNumber});
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
 `;
 
 export const Parrafo = styled.p`
