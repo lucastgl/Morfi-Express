@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from "react-scroll"
 import {StepsContainer, FourthTitle, StepsDetail, Parrafo, ContactButton, PicContainer} from '../Styles/StepsComponents'
 import step1 from "../imgs/IconoFormulario.png"
 import step2 from "../imgs/IconoPreparacion.png"
@@ -25,7 +26,9 @@ const Steps = () => {
         <PicContainer stepNumber={step4}/>
         <Parrafo>¡Alcanza tus objetivos sin preocuparte por tu alimentación!</Parrafo>
       </StepsDetail>
-      <ContactButton>Comienza tu camino</ContactButton>
+      <Link to="form" spy={true} smooth={true} offset={-100} duration={500}>
+        <ContactButton>Comienza tu camino</ContactButton>
+      </Link>
     </StepsContainer>
   )
 }

@@ -81,7 +81,7 @@ const Form = () => {
   });
 
   return (
-    <FormBGImage>
+    <FormBGImage id='form'>
       <FormBGgradient>
         <LastTitle>¡Déjanos tu <span style={{color: "#6CBD45", fontWeight: 700}}>mensaje</span>!</LastTitle>
         <FormContainer form="register">
