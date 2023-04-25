@@ -16,16 +16,14 @@ function App() {
   return (
     <div>
       <OpeningContainer/>
+      <Gallery/>
       <About/>
       <Steps/>
+      <Team/>
+      <Testimonials/>
       <Form/>
       <Footer/> 
       <WaterMark/>
-      {/* 
-      <Gallery/>
-      <Team/>
-      <Testimonials/>
-      */}
     </div>
   )
 }

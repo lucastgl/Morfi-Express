@@ -1,10 +1,14 @@
 import React from 'react'
 import * as Yup from 'yup';
 import { useFormik } from 'formik';
+import  emailjs  from "@emailjs/browser";
 import { FormBGImage, FormBGgradient, LastTitle, FormContainer, Container, Input, Textarea, Error, Button } from "../Styles/FormComponents"
 
 const VALIDACION_EMAIL = /^(([^<>()\[\]\\.,;:\s@”]+(\.[^<>()\[\]\\.,;:\s@”]+)*)|(“.+”))@((\[[0–9]{1,3}\.[0–9]{1,3}\.[0–9]{1,3}\.[0–9]{1,3}])|(([a-zA-Z\-0–9]+\.)+[a-zA-Z]{2,}))$/;
 const VALIDACION_NOMBRE = /^(?=\S)(?=.*\S$).{8,}$/;
+const SERVICE_ID = "service_70rboqi";
+const TEMPLATE_ID = "template_5w2sn9y";
+const PUBLIC_KEY = "lWZ8B8klg8w_FpReV";
 
 const inputs = [
   {id: 1, label: "Nombre", placeholder: "Nombre", name: "nombre", type: "text"},
@@ -51,6 +55,20 @@ const Form = () => {
 
   const onSubmit = (values, {resetForm}) =>{
     console.log(values);
+
+    emailjs.send(SERVICE_ID, TEMPLATE_ID, { 
+      /*a continuación van los valores del formulario 
+      que se utilizan en el template, por eso lo que está 
+      antes de los dos puntos debe coincidir con 
+      los campos que se detallan en el dashboard emailJS */
+      nombre: values.nombre,
+      mensaje: values.mensaje,
+      mail: values.mail,
+      asunto: values.asunto
+    }, PUBLIC_KEY)
+    .then(response => console.log(response))
+    .catch(error => console.log(error))
+    
     resetForm();
   };
 
@@ -101,7 +119,7 @@ const Form = () => {
             }
           </Container>
           </form>
-          <Button form="register-form" btn="submit" type="submit">Submit</Button>
+          <Button form="register-form" btn="submit" type="submit">Enviar</Button>
         </FormContainer>
       </FormBGgradient>
     </FormBGImage>
