@@ -1,23 +1,41 @@
 import styled from 'styled-components';
-import fondo from '../imgs/HomepageOpeningMobile.jpg'
+import fondoMobile from '../imgs/HomepageOpeningMobile.jpg'
+import fondoDesktop from '../imgs/HomepageOpeningDesktop.jpg'
+
 
 export const HeaderContainer = styled.div`
     height: 100vh;
     color: white;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(${fondo});
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${fondoDesktop});
     background-size: cover;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    text-align: center;    
+    
+    @media screen and (max-width: 768px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(${fondoMobile});
+    }    
 `;
-
+    
 export const FirstTitle = styled.h1`
     font-family: 'Barlow', sans-serif;
     font-style: italic;
     font-weight: 500;
-    padding-bottom: 14px; 
+    padding-bottom: 14px;
+    span {
+        color: #6CBD45;
+        font-weight: 700;
+    }
+    @media screen and (min-width: 768px) {
+        margin-left: 10vw;
+        font-size: 4rem;
+        width: 40%; 
+    }
 `;
 
 export const SubTitle = styled.p`
@@ -26,6 +44,11 @@ export const SubTitle = styled.p`
     font-size: 16px;
     padding-bottom: 28px;
     width: 300px;
+    @media screen and (min-width: 768px) {
+        margin-left: 10vw;
+        font-size: 1.8rem;
+        width: 28%;
+    }
 `;
 
 export const ContactButton = styled.button`
@@ -38,4 +61,8 @@ export const ContactButton = styled.button`
     border-radius: 10px;
     padding: 4px 8px;
     border-style: none;
+    @media screen and (min-width: 768px) {
+        margin-left: 10vw;
+        font-size: 1.9rem; 
+    }
 `;

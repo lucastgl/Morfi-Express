@@ -21,25 +21,32 @@ html {
 
 /*Desde acá estilos a copiar en otros elementos*/
 
-section{
+#team{
     background-image: url("../../imgs/Team/AtletasEliteBG.jpg");
     background-origin: border-box;
     background-size: cover;
     background-position: bottom right;
 }
 
-.container {
+.containerTeam {
     background: rgba(0, 0, 0, 0.85);
 }
 
-.componentTitle{
-    text-align: center;
-    color: white;
-    font-family: 'Barlow', sans-serif;
-    font-style: italic;
-    font-weight: 400;
-    padding-top: 60px;
-    padding-bottom: 50px;
+.titleContainer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.componentTitleTeam{
+  text-align: center;
+  color: white;
+  font-family: 'Barlow', sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  padding-top: 60px;
+  padding-bottom: 50px;
+  width: 80%;
 }
 
 .componentTitle span {

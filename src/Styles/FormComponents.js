@@ -60,7 +60,7 @@ export const Input = styled.input`
     ::placeholder {
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
-        color: #939393;
+        color: #8c8c8c;
     }
 `;
 

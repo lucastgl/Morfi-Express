@@ -25,15 +25,7 @@ const TeamMobile = () => {
           stretch: 0,
           depth: 100,
           modifier: 2.5,
-        },
-        // pagination: {
-        //   el: '.swiper-pagination',
-        //   clickable: true,
-        //   dynamicBullets: true,
-        //   renderBullet: function (index, className) {
-        //     return '<span class="' + className + '"></span>';
-        //   },
-        // },
+        }
       });
     };
 
@@ -43,10 +35,10 @@ const TeamMobile = () => {
 
   return (
     <section id="team">
-      <div className="container">
+      <div className="containerTeam">
         
-        <div>
-          <h2 className='componentTitle'><span style={{color: 'green'}}>Atletas</span> que hemos ayudado en su alimentación</h2>
+        <div className='titleContainer'>
+          <h2 className='componentTitleTeam'><span style={{color: 'green'}}>Atletas</span> que hemos ayudado en su alimentación</h2>
         </div>
         
         <div className="swiper trandingSliderTeam">
