@@ -2,7 +2,7 @@ import React from 'react'
 import * as Yup from 'yup';
 import { useFormik } from 'formik';
 import  emailjs  from "@emailjs/browser";
-import { FormBGImage, FormBGgradient, LastTitle, FormContainer, Container, Input, Textarea, Error, Button } from "../Styles/FormComponents"
+import { FormBGImage, FormBGgradient, LastTitle, FormContainer, Container, Input, Textarea, Error, ButtonContainer, Button } from "../Styles/FormComponents"
 
 const VALIDACION_EMAIL = /^(([^<>()\[\]\\.,;:\s@”]+(\.[^<>()\[\]\\.,;:\s@”]+)*)|(“.+”))@((\[[0–9]{1,3}\.[0–9]{1,3}\.[0–9]{1,3}\.[0–9]{1,3}])|(([a-zA-Z\-0–9]+\.)+[a-zA-Z]{2,}))$/;
 const VALIDACION_NOMBRE = /^(?=\S)(?=.*\S$).{8,}$/;
@@ -119,7 +119,9 @@ const Form = () => {
             }
           </Container>
           </form>
-          <Button form="register-form" btn="submit" type="submit">Enviar</Button>
+          <ButtonContainer>
+            <Button form="register-form" btn="submit" type="submit">Enviar</Button>
+          </ButtonContainer>
         </FormContainer>
       </FormBGgradient>
     </FormBGImage>

@@ -31,11 +31,16 @@ export const LastTitle = styled.h2`
 `;
 
 export const FormContainer = styled.div`
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     width: 80%;
 `;
+
+export const ButtonContainer = styled.div`
+    flex-grow; 1;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+`;
+
 
 export const Container = styled.div`
     width: 100%;
@@ -95,6 +100,7 @@ export const Button = styled.button`
     padding: 4px 10px;
     border-style: none;
     margin-top: 30px;
+    scale: 1.20;
 `;
 
 
