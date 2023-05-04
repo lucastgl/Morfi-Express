@@ -1,22 +1,64 @@
 import styled from 'styled-components';
-import step1 from "../imgs/IconoFormulario.png"
-import step2 from "../imgs/IconoPreparacion.png"
-import step3 from "../imgs/IconoObjetivo.png"
-import step4 from "../imgs/IconoVianda.png"
 
 export const StepsContainer = styled.div`
-    height: 85vh;
+    min-height: 85vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
+    @media screen and (min-width: 768px) and (max-width: 1400px){
+        min-height: auto!important;
+    } 
+    
+    @media screen and (min-width: 1400px) {
+        min-height: 70vh;
+    } 
 `;
 
 export const FourthTitle = styled.h2`
+
     font-family: 'Barlow', sans-serif;
     font-style: italic;
     font-weight: 400;
-    padding-bottom: 40px; 
+    margin: 40px 0px;
+    img{
+        display: none;
+    }
+    
+    // @media screen and (min-width: 768px) and (max-width: 1400px){
+    //     display: flex;
+    //     align-items: center;
+    //     img{
+    //         margin: 0px 15px;
+    //         display: block;
+    //     }
+    // }     
+
+    @media screen and (min-width: 1400px) {
+        font-size: 3.2rem;
+        display: flex;
+        align-items: center;
+        margin: 80px 0px;
+        img{
+            margin: 0px 15px;
+            display: block; 
+        }
+        span{
+            margin: 10px!important;
+        }
+    } 
+`;
+
+export const Step = styled.div`
+    @media screen and (min-width: 768px) and (max-width: 1400px){
+        display: flex;
+        width: 100%;
+    }   
+    @media screen and (min-width: 1400px) {
+        display: flex;
+        width: 80%;
+    } 
 `;
 
 export const StepsDetail = styled.div`
@@ -24,6 +66,13 @@ export const StepsDetail = styled.div`
     align-items: center;
     margin-bottom: 20px;
     padding: 0px 32px;
+
+    @media screen and (min-width: 768px) {
+        flex-direction: column;
+        margin-bottom: 0px;
+        padding: 0px 0px;
+        
+    } 
 `;
 
 export const PicContainer = styled.div`
@@ -33,7 +82,14 @@ export const PicContainer = styled.div`
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-
+    @media screen and (min-width: 768px) and (max-width: 1400px){
+        display: flex;
+    }
+    @media screen and (min-width: 1400px) {
+        display: flex;
+        height: 160px;
+        min-width: 220px;
+    }   
 `;
 
 export const Parrafo = styled.p`
@@ -41,7 +97,17 @@ export const Parrafo = styled.p`
     font-weight: 300;
     font-size: 18px;
     text-align: left;
-    padding-left: 16px
+    padding-left: 16px;
+    @media screen and (min-width: 768px) and (max-width: 1400px){
+        margin-top: 40px;
+        text-align: center;
+    }
+    @media screen and (min-width: 1400px) {
+        margin-top: 40px;
+        text-align: center;
+        font-size: 1.8rem;
+        width: 70%;
+    }  
 `;
 
 
@@ -55,5 +121,12 @@ export const ContactButton = styled.button`
     border-radius: 10px;
     padding: 4px 8px;
     border-style: none;
-    margin-top: 30px
+    margin: 40px 0px;
+    @media screen and (min-width: 768px) and (max-width: 1400px){
+        font-size: 25px;
+    }
+    @media screen and (min-width: 1400px) {
+        margin: 70px 0px 50px 0px;
+        font-size: 2rem;
+    }
 `;
