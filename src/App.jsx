@@ -8,7 +8,7 @@ import TeamContainer from './Components/Team/TeamContainer'
 import Testimonials from './Components/Testimonials'
 import Form from './Components/Form'
 import Footer from './Components/Footer'
-import WaterMark from './Components/WaterMark'
+
 
 
 function App() {
@@ -23,7 +23,6 @@ function App() {
       <Testimonials/>
       <Form/>
       <Footer/> 
-      <WaterMark/>
     </div>
   )
 }
