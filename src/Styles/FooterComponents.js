@@ -1,9 +1,6 @@
 import styled from 'styled-components';
 
 export const FooterContainer = styled.div`
-    @media screen and (max-width: 760px) {
-        height: 70vh;
-    } 
     background-color: black;
 `;
 

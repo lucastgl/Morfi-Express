@@ -55,48 +55,48 @@ const TeamMobile = () => {
             <div className="swiper-slide trandingSlide">
               <div className="trandingSlideImg">
                 <img src={atleta2} alt="Atleta" className="backgroundImg" />
-                <p className="atletaIg">@mariannmartini</p>
-                <p className="atletaTitle">Campeona Absoluta Argentina</p>
+                <p className="atletaIg">@michelsteuart</p>
+                <p className="atletaTitle">Campeón Absoluto Argentino</p>
               </div>
             </div>
 
             <div className="swiper-slide trandingSlide">
               <div className="trandingSlideImg">
                 <img src={atleta3} alt="Atleta" className="backgroundImg" />
-                <p className="atletaIg">@mariannmartini</p>
-                <p className="atletaTitle">Campeona Absoluta Argentina</p>
+                <p className="atletaIg">@carrveiga.ifbbpro</p>
+                <p className="atletaTitle">IFBB Pro Wellnes</p>
               </div>
             </div>
 
             <div className="swiper-slide trandingSlide">
               <div className="trandingSlideImg">
                 <img src={atleta4} alt="Atleta" className="backgroundImg" />
-                <p className="atletaIg">@mariannmartini</p>
-                <p className="atletaTitle">Campeona Absoluta Argentina</p>
+                <p className="atletaIg">@borrerobodybuilder</p>
+                <p className="atletaTitle">Campeón Argentino Bodybuilder</p>
               </div>
             </div>
 
             <div className="swiper-slide trandingSlide">
               <div className="trandingSlideImg">
                 <img src={atleta5} alt="Atleta" className="backgroundImg" />
-                <p className="atletaIg">@mariannmartini</p>
-                <p className="atletaTitle">Campeona Absoluta Argentina</p>
+                <p className="atletaIg">@amanndavs</p>
+                <p className="atletaTitle">Atleta Vikinis</p>
               </div>
             </div>
 
             <div className="swiper-slide trandingSlide">
               <div className="trandingSlideImg">
                 <img src={atleta6} alt="Atleta" className="backgroundImg" />
-                <p className="atletaIg">@mariannmartini</p>
-                <p className="atletaTitle">Campeona Absoluta Argentina</p>
+                <p className="atletaIg">@vapiky_ifbbpro</p>
+                <p className="atletaTitle">IFBB Pro Bodybuilder</p>
               </div>
             </div>
 
             <div className="swiper-slide trandingSlide">
               <div className="trandingSlideImg">
                 <img src={atleta7} alt="Atleta" className="backgroundImg" />
-                <p className="atletaIg">@mariannmartini</p>
-                <p className="atletaTitle">Campeona Absoluta Argentina</p>
+                <p className="atletaIg">@vapiky_ifbbpro</p>
+                <p className="atletaTitle">IFBB Pro Wellnes</p>
               </div>
             </div>
             

@@ -5,7 +5,7 @@ import FodySlider from './Components/FodySlider'
 import About from './Components/About'
 import Steps from './Components/Steps'
 import TeamContainer from './Components/Team/TeamContainer'
-import Testimonials from './Components/Testimonials'
+import Testimonios from './Components/Testimonios'
 import Form from './Components/Form'
 import Footer from './Components/Footer'
 
@@ -20,9 +20,9 @@ function App() {
       <About/>
       <Steps/>
       <TeamContainer/>
-      <Testimonials/>
+      <Testimonios/>
       <Form/>
-      <Footer/> 
+      <Footer/>
     </div>
   )
 }

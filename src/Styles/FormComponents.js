@@ -3,7 +3,7 @@ import fondo from "../imgs/FondoFormularioContacto.jpg"
 
 
 export const FormBGImage = styled.div`
-    height: 80vh;
+    height: 70vh;
     color: white;
     background: rgb(0,0,0);
     background: url(${fondo});
@@ -30,7 +30,7 @@ export const FormBGgradient = styled.div`
     }
     @media screen and (min-width: 1200px){
         padding-left: 150px;
-    }   
+        background: linear-gradient(257deg, rgba(0,0,0,0) 7%, rgba(0,0,0,0.9304096638655462) 35%, rgba(0,0,0,1) 47%, rgba(22,22,22,1) 87%);
 `;
 
 export const LastTitle = styled.h2`
@@ -50,7 +50,7 @@ export const LastTitle = styled.h2`
 export const FormContainer = styled.div`
     width: 80%;
     @media screen and (min-width: 760px){
-        width: 50%;
+        width: 40%;
     }
 `;
 
@@ -66,7 +66,7 @@ export const Container = styled.div`
 
 export const FistPart = styled.div`
     @media screen and (min-width: 730px){
-        display: flex;
+        display: flex;   
     }
 `;
 
