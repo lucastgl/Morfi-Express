@@ -1,13 +1,16 @@
 import React from 'react'
-import { TestimoniosContainer, TitleContainer, TestimoniosTitle, TestimoniosContent, ComillasUp, ComillasDown, TestimoniosParte1, TestimoniosParte2, Testimonio } from '../Styles/TestimoniosComponents'
+import { TestimoniosContainer, TitleContainer, Linea, TestimoniosTitle, TestimoniosContent, ComillasUp, ComillasDown, TestimoniosParte1, TestimoniosParte2, Testimonio } from '../Styles/TestimoniosComponents'
 import comillas1 from "../imgs/Testimonios/Comillas.png"
 import comillas2 from "../imgs/Testimonios/Comillas2.png"
+import linea from "../imgs/Steps/Line.png"
 
 const Testimonios = () => {
   return (
-    <TestimoniosContainer>
+    <TestimoniosContainer id='clientes'>
         <TitleContainer>
+            <Linea src={linea}/>
             <TestimoniosTitle>¿Qué opinan nuestro <span>clientes</span> sobre Morfi?</TestimoniosTitle>
+            <Linea src={linea}/>
         </TitleContainer>
         <TestimoniosContent>
             <ComillasUp src={comillas1}/>
@@ -26,4 +29,4 @@ const Testimonios = () => {
   )
 }
 
-export default Testimonios
+export default Testimonios;

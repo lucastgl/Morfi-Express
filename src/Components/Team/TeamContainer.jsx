@@ -3,7 +3,7 @@ import TeamMobile from './TeamMobile'
 
 const Team = () => {
   return (
-      <TeamMobile/>
+    <TeamMobile/>
   )
 }
 

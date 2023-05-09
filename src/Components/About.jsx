@@ -3,7 +3,7 @@ import {AboutContainer, Gradient, ThirdtTitle, Parrafo} from '../Styles/AboutCom
 
 const About = () => {
   return (
-    <AboutContainer>
+    <AboutContainer id='about'>
       <Gradient>
         <ThirdtTitle>¿Quiénes Somos?</ThirdtTitle>
         <Parrafo>

@@ -10,7 +10,15 @@ export const TitleContainer = styled.div`
     margin: 0;
     display: flex;
     justify-content: center;
+   align-items: center;
     margin-bottom: 30px;
+`;
+
+export const Linea = styled.img`
+    width: 10%;
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
 `;
 
 export const TestimoniosTitle = styled.h2`
@@ -24,10 +32,20 @@ export const TestimoniosTitle = styled.h2`
         color: #6CBD45;
         font-weight: 600;
     }
+    @media screen and (min-width: 768px) {
+        width: auto;
+        margin: 0px 20px;
+        font-size: 3.2rem;
+    } 
 `;
 
 export const TestimoniosContent = styled.div`
     position: relative;
+    @media screen and (min-width: 768px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } 
 `;
 
 
@@ -37,7 +55,11 @@ export const ComillasUp = styled.img`
     left: 0;
     width: 40px;
     height: auto;
-    margin-left: 30px;
+    margin-left: 30px; 
+    @media screen and (min-width: 768px) {
+        margin-left: 20vw;
+        width: 60px;    
+    } 
 `;
 
 
@@ -48,6 +70,11 @@ export const ComillasDown = styled.img`
     width: 40px;
     height: auto;
     margin-right: 30px;
+    @media screen and (min-width: 768px) {
+        margin-right: 20vw;
+        width: 60px;
+        margin-bottom: 40px;
+    } 
 `;
 
 export const TestimoniosParte1 = styled.div`
@@ -55,6 +82,11 @@ export const TestimoniosParte1 = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    @media screen and (min-width: 768px) {
+        flex-direction: row;
+        width: 50%;
+        margin: 20px 20px;
+    } 
 `;
 
 export const TestimoniosParte2 = styled.div`
@@ -62,6 +94,11 @@ export const TestimoniosParte2 = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    @media screen and (min-width: 768px) {
+        flex-direction: row;
+        width: 50%;
+        margin: 20px 20px;
+    } 
 `;
 
 export const Testimonio = styled.div`
@@ -72,5 +109,9 @@ export const Testimonio = styled.div`
     color: white;
     font-size: 20px;
     padding: 20px 0px;
+    margin: 20px 20px;
+    @media screen and (min-width: 768px) {
+        font-size: 1.8rem;
+    } 
 `;
 

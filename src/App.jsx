@@ -8,6 +8,7 @@ import TeamContainer from './Components/Team/TeamContainer'
 import Testimonios from './Components/Testimonios'
 import Form from './Components/Form'
 import Footer from './Components/Footer'
+import WhatsAppButton from './Components/WhatsAppButton'
 
 
 
@@ -15,6 +16,7 @@ function App() {
 
   return (
     <div>
+      <WhatsAppButton/>
       <OpeningContainer/>
       <FodySlider/>
       <About/>

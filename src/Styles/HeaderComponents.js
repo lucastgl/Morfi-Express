@@ -3,11 +3,17 @@ import fondoMobile from '../imgs/HomepageOpeningMobile.jpg'
 import fondoDesktop from '../imgs/HomepageOpeningDesktop.jpg'
 
 
+export const HeaderBox = styled.div`
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${fondoDesktop});
+    background-size: cover;
+    @media screen and (max-width: 768px) {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(${fondoMobile});
+    }
+`;
+
 export const HeaderContainer = styled.div`
     height: 100vh;
     color: white;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(${fondoDesktop});
-    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,7 +24,6 @@ export const HeaderContainer = styled.div`
         align-items: center;
         justify-content: center;
         text-align: center;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(${fondoMobile});
     }    
 `;
     
