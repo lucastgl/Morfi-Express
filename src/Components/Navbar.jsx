@@ -5,14 +5,24 @@ import { NavContainer, NavigationContent, Logo, NavItem } from '../Styles/Navbar
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
+  const [lastScrollPos, setLastScrollPos] = useState(0);
+  const [hidden, setHidden] = useState(false);
 
   const handleScroll = () => {
-    const scrollPos = window.scrollY;
-    if (scrollPos > 50) {
+    const currentScrollPos = window.scrollY;
+    const isScrollingUp = currentScrollPos < lastScrollPos;
+
+    if (isScrollingUp && currentScrollPos > 50) {
       setScrolled(true);
-    } else {
+      setHidden(false);
+    } else if (currentScrollPos === 0) {
       setScrolled(false);
+      setHidden(false);
+    } else {
+      setHidden(true);
     }
+
+    setLastScrollPos(currentScrollPos);
   };
 
   useEffect(() => {
@@ -20,10 +30,15 @@ const Navbar = () => {
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
-  }, []);
+  }, [lastScrollPos]);
 
   return (
-    <NavContainer style={{ backgroundColor: scrolled ? 'black' : 'rgba(0, 0, 0, 0)' }}>
+    <NavContainer
+      style={{
+        backgroundColor: scrolled ? 'black' : 'rgba(0, 0, 0, 0)',
+        transform: hidden ? 'translateY(-100%)' : 'translateY(0)',
+      }}
+    >
       <Link to="header" spy={true} smooth={true} offset={-100} duration={500}>
         <Logo src={logo}/>
       </Link>

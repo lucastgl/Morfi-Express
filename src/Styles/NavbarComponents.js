@@ -11,7 +11,8 @@ export const NavContainer = styled.div`
     top: 0;
     width: 100%;
     z-index: 1000; 
-    transition: background-color 0.3s ease;
+    transform: translateY(0); // Inicialmente, el navbar se muestra
+    transition: transform 0.3s ease, background-color 0.3s ease; // Añade la transición para el transform
 
     @media screen and (max-width: 768px) {
         justify-content: center;
@@ -24,6 +25,7 @@ export const Logo = styled.img`
     height: auto;
     @media screen and (max-width: 768px) {
         width: 15vw;
+        margin-left: 0px;
     }
 `;
 
