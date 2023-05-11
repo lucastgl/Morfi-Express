@@ -30,10 +30,7 @@ const FodySlider = () => {
           el: '.swiper-pagination',
           clickable: true,
           dynamicBullets: true,
-          renderBullet: function (index, className) {
-            return '<span class="' + className + '"></span>';
-          },
-        },
+        }
       });
     };
 

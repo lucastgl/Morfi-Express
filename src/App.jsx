@@ -9,6 +9,7 @@ import Testimonios from './Components/Testimonios'
 import Form from './Components/Form'
 import Footer from './Components/Footer'
 import WhatsAppButton from './Components/WhatsAppButton'
+import GaleriaViandas from './Components/GaleriaViandas'
 
 
 
@@ -18,7 +19,8 @@ function App() {
     <div>
       <WhatsAppButton/>
       <OpeningContainer/>
-      <FodySlider/>
+      {/* <FodySlider/> */}
+      <GaleriaViandas/>
       <About/>
       <Steps/>
       <TeamContainer/>
