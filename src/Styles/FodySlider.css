@@ -166,6 +166,20 @@ div .swiper-pagination-bullet-active {
     width: 400px;
   }
   .swiper-3d {
-    width: 55%;
+    width: 60%;
   }
+}
+
+
+
+.swiper-3d::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(90deg, rgba(0,0,0,1) 3%, rgba(0,0,0,0.7567401960784313) 9%, rgba(0,0,0,0.07046568627450978) 48%, rgba(0,0,0,0.835171568627451) 94%, rgba(0,0,0,1) 100%);
+  pointer-events: none;
+  z-index: 10;
 }

@@ -1,16 +1,17 @@
 import React, { useEffect } from 'react';
 import Swiper from 'swiper';
 import 'swiper/swiper-bundle.min.css';
-import "../../Styles/TeamStyles/TeamMobile.css"
-import atleta1 from "../../imgs/Team/FotoMariann.png"
-import atleta2 from "../../imgs/Team/FotoMichelSteuart.png"
-import atleta3 from "../../imgs/Team/FotoCarla.png"
-import atleta4 from "../../imgs/Team/FotoEduardoBorrero.png"
-import atleta5 from "../../imgs/Team/FotoAmanda.png"
-import atleta6 from "../../imgs/Team/FotoFranciscoBarrios.png"
-import atleta7 from "../../imgs/Team/FotoVaninaPikor.png"
+import "../Styles/TeamMobile.css"
+import atleta1 from "../imgs/Team/FotoMariann.png"
+import atleta2 from "../imgs/Team/FotoMichelSteuart.png"
+import atleta3 from "../imgs/Team/FotoCarla.png"
+import atleta4 from "../imgs/Team/FotoEduardoBorrero.png"
+import atleta5 from "../imgs/Team/FotoAmanda.png"
+import atleta6 from "../imgs/Team/FotoFranciscoBarrios.png"
+import atleta7 from "../imgs/Team/FotoVaninaPikor.png"
+import line from "../imgs/Steps/Line.png"
 
-const TeamMobile = () => {
+const Team = () => {
 
   useEffect(() => {
 
@@ -25,7 +26,8 @@ const TeamMobile = () => {
           stretch: 0,
           depth: 100,
           modifier: 2.5,
-        }
+        },
+        initialSlide: 2,
       });
     };
 
@@ -38,7 +40,9 @@ const TeamMobile = () => {
       <div className="containerTeam">
         
         <div className='titleContainer'>
+          <img  src={line} className='line'/>
           <h2 className='componentTitleTeam'><span style={{color: 'green'}}>Atletas</span> que hemos ayudado en su alimentación</h2>
+          <img  src={line} className='line'/>
         </div>
         
         <div className="swiper trandingSliderTeam">
@@ -107,4 +111,4 @@ const TeamMobile = () => {
   )
 }
 
-export default TeamMobile;
+export default Team;

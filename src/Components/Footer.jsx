@@ -1,9 +1,6 @@
 import React from 'react'
 import morfiLogo from '../imgs/MorfiExpressLogo.png'
 import instagram from '../imgs/Instagram.png'
-import tiktok from '../imgs/TikTok.png'
-import facebook from '../imgs/Facebook.png'
-import youtube from '../imgs/YouTube.png'
 import { FooterContainer, FooterContent, Logo, Subtitle, Data,  ContactContainer, Container, RedesSociales, RedSocial } from '../Styles/FooterComponents'
 import WaterMark from './WaterMark'
 
@@ -28,10 +25,7 @@ const Footer = () => {
           </Container>
         </ContactContainer>
         <RedesSociales>
-          {/* <RedSocial><img src={facebook} alt="facebook" /></RedSocial> */}
           <RedSocial><img src={instagram} alt="instagram" /></RedSocial>
-          {/* <RedSocial><img src={tiktok} alt="tiktok" /></RedSocial>
-          <RedSocial><img src={youtube} alt="youtube" /></RedSocial> */}
         </RedesSociales>
       </FooterContent>
       <WaterMark/>

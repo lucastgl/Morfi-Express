@@ -10,12 +10,6 @@ const SERVICE_ID = "service_70rboqi";
 const TEMPLATE_ID = "template_5w2sn9y";
 const PUBLIC_KEY = "lWZ8B8klg8w_FpReV";
 
-// const inputs = [
-//   {id: 1, label: "Nombre", placeholder: "Nombre", name: "nombre", type: "text"},
-//   {id: 2, label: "Mail", placeholder: "Mail", name: "mail", type: "email" },
-//   {id: 3, label: "Asunto", placeholder: "Asunto", name: "asunto", type: "text"},
-// ]
-
 const Form = () => {
 
   const getInitialValues = () =>(
@@ -56,10 +50,6 @@ const Form = () => {
     console.log(values);
 
     emailjs.send(SERVICE_ID, TEMPLATE_ID, { 
-      /*a continuación van los valores del formulario 
-      que se utilizan en el template, por eso lo que está 
-      antes de los dos puntos debe coincidir con 
-      los campos que se detallan en el dashboard emailJS */
       nombre: values.nombre,
       mensaje: values.mensaje,
       mail: values.mail,
@@ -85,26 +75,6 @@ const Form = () => {
         <LastTitle>¡Déjanos tu <span style={{color: "#6CBD45", fontWeight: 600}}>mensaje</span>!</LastTitle>
         <FormContainer form="register">
           <form  id="register-form" onSubmit={handleSubmit}>
-          {/* { 
-            inputs.map(fields => (
-              <Container key={fields.id}>
-                <Input
-                  name={fields.name}
-                  placeholder={fields.placeholder}
-                  value={values[fields.name]}
-                  onChange={(e) => setFieldValue(fields.name, e.target.value)}
-                                  // ☝ el primer parámetro es el nombre de la propiedad a afectar, 
-                                  //el segundo es valor que quiero guardar en la propiedad
-                />
-                {
-                  errors[fields.name] &&(
-                    <Error>{errors[fields.name]}</Error>
-                  )
-                }
-              </Container>
-            ))
-          } */}
-
           <FistPart>
             <Container key={1}>
               <Input
@@ -133,7 +103,6 @@ const Form = () => {
               }
             </Container>
           </FistPart>
-
           <Container key={3}>
             <Input
               name="asunto"

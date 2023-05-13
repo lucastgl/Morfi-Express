@@ -22,7 +22,7 @@ html {
 /*Desde acá estilos a copiar en otros elementos*/
 
 #team{
-    background-image: url("../../imgs/Team/AtletasEliteBG.jpg");
+    background-image: url("../imgs/Team/AtletasEliteBG.jpg");
     background-origin: border-box;
     background-size: cover;
     background-position: bottom right;
@@ -36,6 +36,7 @@ html {
   width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .componentTitleTeam{
@@ -46,7 +47,28 @@ html {
   font-weight: 400;
   padding-top: 60px;
   padding-bottom: 50px;
-  width: 80%;
+  width: fit-content;
+}
+
+.line{
+  display: none;
+}
+
+
+@media (min-width:1000px) {
+  .componentTitleTeam {
+    font-size: 2.8rem;
+    font-weight: 400;
+  }
+  .componentTitleTeam span{
+    font-weight: 600;
+  }
+
+  .line{
+    display: block;
+    width: 10vw;
+    margin: 20px 5px 0px 5px;
+  }
 }
 
 .componentTitle span {
@@ -136,6 +158,12 @@ html {
     .trandingSlide {
       width: 13rem !important;
       height: 15rem !important;
+    }
+  }
+
+  @media (min-width: 769px){
+    .trandingSlideImg{
+      height: 25rem!important;
     }
   }
   
