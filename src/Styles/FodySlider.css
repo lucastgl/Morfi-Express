@@ -131,25 +131,6 @@ html {
   bottom: 0;
 }
 
-/* div .swiper-pagination-bullet {
-  display: inline-block;
-  background-color: #ffffff;
-  padding: 10px;
-  margin: 10px;
-  border-radius: 0px;
-  scale: 0.6;
-}
-
-div .swiper-pagination-bullet-active {
-  display: inline-block;
-  background-color: #6CBD45;
-  padding: 10px;
-  margin: 10px;
-  border-radius: 0px;
-  scale: 0.6;
-  width: 30px!important;
-} */
-
 div .swiper-pagination-bullet {
   display: inline-block;
   background: #ffffff!important;

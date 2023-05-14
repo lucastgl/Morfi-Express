@@ -19,8 +19,6 @@ html {
   scroll-behavior: smooth;
 }
 
-/*Desde acá estilos a copiar en otros elementos*/
-
 #team{
     background-image: url("../imgs/Team/AtletasEliteBG.jpg");
     background-origin: border-box;

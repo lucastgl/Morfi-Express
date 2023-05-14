@@ -42,22 +42,22 @@ export const NavItem = styled.li`
     font-size: 1.3rem;
     font-family: 'Barlow', sans-serif;
     font-weight: 600;
-    position: relative; // Añadido: para que el pseudo-elemento se posicione en relación a este elemento
-    cursor: pointer; // Añadido: para indicar que el elemento es interactivo
+    position: relative; 
+    cursor: pointer; 
 
     &::after {
-        content: ''; // Añadido: para generar el pseudo-elemento
-        position: absolute; // Añadido: para posicionar el pseudo-elemento
-        bottom: 0; // Añadido: para alinear el subrayado con la parte inferior del texto
-        left: 50%; // Añadido: para posicionar el inicio del subrayado en el centro
-        width: 0; // Añadido: para que el subrayado inicie sin ancho
-        height: 2px; // Añadido: para dar un grosor al subrayado
-        background-color: #6CBD45; // Añadido: para que el subrayado tenga el mismo color que el texto
-        transition: all 0.3s ease; // Añadido: para animar el subrayado
+        content: '';
+        position:
+        bottom: 0;
+        left: 50%;
+        width: 0;
+        height: 2px; 
+        background-color: #6CBD45;
+        transition: all 0.3s ease;
     }
 
     &:hover::after {
-        left: 0; // Añadido: para que el subrayado se extienda hacia la izquierda
-        width: 100%; // Añadido: para que el subrayado ocupe todo el ancho del elemento li
+        left: 0;
+        width: 100%;
     }
 `;

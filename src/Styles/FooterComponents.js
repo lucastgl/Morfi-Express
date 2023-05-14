@@ -80,5 +80,3 @@ export const RedesSociales = styled.ul`
 export const RedSocial = styled.li`
     margin: 0px 15px;
 `;
-
-
