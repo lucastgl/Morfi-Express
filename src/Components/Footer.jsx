@@ -25,7 +25,7 @@ const Footer = () => {
           </Container>
         </ContactContainer>
         <RedesSociales>
-          <RedSocial><img src={instagram} alt="instagram" /></RedSocial>
+          <RedSocial><a href='https://www.instagram.com/morfi.express1/?hl=es'><img src={instagram} alt="instagram" /></a></RedSocial>
         </RedesSociales>
       </FooterContent>
       <WaterMark/>

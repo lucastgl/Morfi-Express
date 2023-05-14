@@ -11,7 +11,7 @@ const Steps = () => {
   return (
     <StepsContainer>
 
-      <FourthTitle><img src={linea}/>Tus <span style={{color: "#6CBD45", fontWeight: 600}}>comidas</span> en solo cuatro pasos<img src={linea}/></FourthTitle>
+      <FourthTitle><img src={linea}/>Tus <span style={{color: "#6CBD45", fontWeight: 600}}>comidas</span> en solo cuatro pasos<img src={linea} style={{transform: "rotate(180deg)"}}/></FourthTitle>
       
       <Step>
 

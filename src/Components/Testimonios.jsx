@@ -10,7 +10,7 @@ const Testimonios = () => {
         <TitleContainer>
             <Linea src={linea}/>
             <TestimoniosTitle>¿Qué opinan nuestro <span>clientes</span> sobre Morfi?</TestimoniosTitle>
-            <Linea src={linea}/>
+            <Linea src={linea} style={{transform: "rotate(180deg)"}}/>
         </TitleContainer>
         <TestimoniosContent>
             <ComillasUp src={comillas1}/>

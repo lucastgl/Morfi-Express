@@ -19,8 +19,6 @@ html {
   scroll-behavior: smooth;
 }
 
-/*Desde acá estilos a copiar en otros elementos*/
-
 .containerViandas {
   background-color: #000000;
   padding-bottom: 60px;
@@ -31,6 +29,23 @@ html {
     background-color: #000000;
     padding-bottom: 20px;
   }  
+}
+
+.titleContainerViandas{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.titleContainerViandas img{
+  margin: 10px 10px 0px 10px;
+}
+
+@media (max-width:769px) {
+  .titleContainerViandas img{
+    display: none;
+  }
 }
 
 .componentTitle{
@@ -86,7 +101,7 @@ html {
 }
 
 .tranding-slide .tranding-slide-img img {
-  width: 20rem;
+  width: 21rem;
   height: auto;
   border-radius: 2rem;
   object-fit: cover;
@@ -98,7 +113,7 @@ html {
     height: auto !important;
   }
   .tranding-slide .tranding-slide-img img {
-    width: 11rem !important;
+    width: 9rem !important;
     height: auto !important;
   }
 }
@@ -153,7 +168,7 @@ div .swiper-pagination-bullet-active {
   margin: 10px;
   border-radius: 3px;
   scale: 0.6;
-  width: 30px!important; 
+  width: 45px!important; 
 
 }
 
@@ -169,8 +184,6 @@ div .swiper-pagination-bullet-active {
     width: 60%;
   }
 }
-
-
 
 .swiper-3d::after{
   content: "";

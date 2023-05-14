@@ -16,12 +16,15 @@ import vianda3 from '../imgs/Viandas/Vianda3.png';
 import vianda4 from '../imgs/Viandas/Vianda4.png';
 import vianda5 from '../imgs/Viandas/Vianda5.png';
 import vianda6 from '../imgs/Viandas/Vianda6.png';
+import line from "../imgs/Steps/Line.png"
 
 const GaleriaViandas = () => {
   return (
     <div className="containerViandas">
-        <div>
-          <h2 className='componentTitle'>¡Tu <span style={{color: 'green'}}>dieta</span> en las mejores manos!</h2>
+        <div className='titleContainerViandas'>
+            <img src={line}/>
+            <h2 className='componentTitle'>¡Tu <span style={{color: 'green'}}>dieta</span> en las mejores manos!</h2>
+            <img src={line} style={{transform: "rotate(180deg)"}}/>
         </div>
         <Swiper
             effect={'coverflow'}
@@ -38,6 +41,7 @@ const GaleriaViandas = () => {
             pagination={{ el: '.swiper-pagination', clickable: true }}
             modules={[EffectCoverflow, Pagination]}
             className="swiper_container"
+            initialSlide={"1"}
         >
 
                 <SwiperSlide>

@@ -42,7 +42,7 @@ const Team = () => {
         <div className='titleContainer'>
           <img  src={line} className='line'/>
           <h2 className='componentTitleTeam'><span style={{color: 'green'}}>Atletas</span> que hemos ayudado en su alimentación</h2>
-          <img  src={line} className='line'/>
+          <img  src={line} className='line' style={{transform: "rotate(180deg)"}}/>
         </div>
         
         <div className="swiper trandingSliderTeam">
