@@ -11,8 +11,8 @@ export const NavContainer = styled.div`
     top: 0;
     width: 100%;
     z-index: 1000; 
-    transform: translateY(0); // Inicialmente, el navbar se muestra
-    transition: transform 0.3s ease, background-color 0.3s ease; // Añade la transición para el transform
+    transform: translateY(0);
+    transition: transform 0.3s ease, background-color 0.3s ease; 
 
     @media screen and (max-width: 768px) {
         justify-content: center;
@@ -47,7 +47,7 @@ export const NavItem = styled.li`
 
     &::after {
         content: '';
-        position:
+        position: absolute;
         bottom: 0;
         left: 50%;
         width: 0;
