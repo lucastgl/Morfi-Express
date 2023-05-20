@@ -17,7 +17,12 @@ export const FooterContent = styled.div`
 
 export const Logo = styled.img`
     margin-top: 65px;
-    @media screen and (min-width: 760px) {
+    @media screen and (min-width: 760px) and (max-width: 1599px) {
+        margin-top: 30px;
+        width: 10vw;
+        height: auto;
+    }
+    @media screen and (min-width: 1600px) {
         width: 10vw;
         height: auto;
         margin-bottom: 30px;
@@ -55,7 +60,10 @@ export const Subtitle = styled.p`
     font-family: 'Barlow', sans-serif;
     font-weight: 700;
     font-size: 20px;
-    @media screen and (min-width: 760px) {
+    @media screen and (min-width: 760px) and (max-width: 1599px) {
+        font-size: 1.6rem;
+    } 
+    @media screen and (min-width: 1600px) {
         font-size: 2rem;
     } 
 `;
@@ -64,7 +72,10 @@ export const Data = styled.p`
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     font-size: 18px;
-    @media screen and (min-width: 760px) {
+    @media screen and (min-width: 760px) and (max-width: 1599px) {
+        font-size: 1rem;
+    } 
+    @media screen and (min-width: 1600px) {
         font-size: 1.6rem;
         text-align: center;
     }
@@ -75,6 +86,10 @@ export const RedesSociales = styled.ul`
     list-style: none;
     display: flex;
     margin-bottom: 20px;
+    @media screen and (min-width: 760px) and (max-width: 1599px) {
+        margin-bottom: 10px;
+    }
+
 `;
 
 export const RedSocial = styled.li`
