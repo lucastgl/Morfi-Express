@@ -25,7 +25,7 @@ export const Gradient = styled.div`
     top: -5px;
     @media screen and (min-width: 768px) and (max-width: 1599px){
         background: linear-gradient(270deg, rgba(0,0,0,0.38139005602240894) 0%, rgba(0,0,0,1) 74%);
-        height: 75.5vh;
+        height: 76vh;
     } 
     @media screen and (min-width: 1600px) {
         background: linear-gradient(270deg, rgba(0,0,0,0.3841911764705882) 0%, rgba(0,0,0,1) 93%);

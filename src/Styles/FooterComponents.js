@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const FooterContainer = styled.div`
-    background-color: black;
+    background-color: #10140E;
 `;
 
 export const FooterContent = styled.div`
@@ -9,7 +9,7 @@ export const FooterContent = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    background-color: black;
+    background-color: #10140E;
     @media screen and (min-width: 760px) {
         height: 100%;
     } 

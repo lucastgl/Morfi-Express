@@ -32,7 +32,13 @@ export const TestimoniosTitle = styled.h2`
         color: #6CBD45;
         font-weight: 600;
     }
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 768px) and (max-width: 1600px) {
+        width: auto;
+        margin: 0px 20px;
+        font-size: 2.5rem;
+        margin-top: 30px;
+    } 
+    @media screen and (min-width: 1600px) {
         width: auto;
         margin: 0px 20px;
         font-size: 3.2rem;
@@ -56,7 +62,11 @@ export const ComillasUp = styled.img`
     width: 40px;
     height: auto;
     margin-left: 30px; 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 768px) and (max-width: 1599px) {
+        margin-left: 20vw;
+        width: 45px;    
+    } 
+    @media screen and (min-width: 1600px) {
         margin-left: 20vw;
         width: 60px;    
     } 
@@ -70,7 +80,14 @@ export const ComillasDown = styled.img`
     width: 40px;
     height: auto;
     margin-right: 30px;
-    @media screen and (min-width: 768px) {
+
+    @media screen and (min-width: 768px) and (max-width: 1599px){
+        margin-right: 20vw;
+        width: 45px;
+        margin-bottom: 40px;
+    } 
+
+    @media screen and (min-width: 1600px) {
         margin-right: 20vw;
         width: 60px;
         margin-bottom: 40px;
@@ -110,7 +127,12 @@ export const Testimonio = styled.div`
     font-size: 20px;
     padding: 20px 0px;
     margin: 20px 20px;
-    @media screen and (min-width: 768px) {
+    background-color: #10140E;
+    border-radius: 5px;
+    @media screen and (min-width: 768px) and (max-width: 1599px){
+        font-size: 1rem;
+    }
+    @media screen and (min-width: 1600px) {
         font-size: 1.8rem;
     } 
 `;

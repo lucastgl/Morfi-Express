@@ -26,16 +26,18 @@ export const FourthTitle = styled.h2`
         display: none;
     }
     
-    // @media screen and (min-width: 768px) and (max-width: 1400px){
-    //     display: flex;
-    //     align-items: center;
-    //     img{
-    //         margin: 0px 15px;
-    //         display: block;
-    //     }
-    // }     
+    @media screen and (min-width: 768px) and (max-width: 1599px){
+        font-size: 2.3rem;
+        display: flex;
+        align-items: center;
+        img{
+            margin: 0px -15px;
+            display: block;
+            scale: .8;
+        }
+    }     
 
-    @media screen and (min-width: 1400px) {
+    @media screen and (min-width: 1600px) {
         font-size: 3.2rem;
         display: flex;
         align-items: center;
@@ -51,11 +53,11 @@ export const FourthTitle = styled.h2`
 `;
 
 export const Step = styled.div`
-    @media screen and (min-width: 768px) and (max-width: 1400px){
+    @media screen and (min-width: 768px) and (max-width: 1599px){
         display: flex;
-        width: 100%;
+        width: 85%;
     }   
-    @media screen and (min-width: 1400px) {
+    @media screen and (min-width: 1600px) {
         display: flex;
         width: 80%;
     } 
@@ -98,11 +100,13 @@ export const Parrafo = styled.p`
     font-size: 18px;
     text-align: left;
     padding-left: 16px;
-    @media screen and (min-width: 768px) and (max-width: 1400px){
+
+    @media screen and (min-width: 768px) and (max-width: 1599px){
         margin-top: 40px;
         text-align: center;
+        width: 68%;
     }
-    @media screen and (min-width: 1400px) {
+    @media screen and (min-width: 1600px) {
         margin-top: 40px;
         text-align: center;
         font-size: 1.8rem;
@@ -122,10 +126,11 @@ export const ContactButton = styled.button`
     padding: 4px 8px;
     border-style: none;
     margin: 40px 0px;
-    @media screen and (min-width: 768px) and (max-width: 1400px){
-        font-size: 25px;
+
+    @media screen and (min-width: 768px) and (max-width: 1599px){
+        font-size: 20px;
     }
-    @media screen and (min-width: 1400px) {
+    @media screen and (min-width: 1600px) {
         margin: 70px 0px 50px 0px;
         font-size: 2rem;
     }

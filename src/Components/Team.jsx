@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import Swiper from 'swiper';
 import 'swiper/swiper-bundle.min.css';
-import "../Styles/TeamMobile.css"
+import "../Styles/Team.css"
 import atleta1 from "../imgs/Team/FotoMariann.png"
 import atleta2 from "../imgs/Team/FotoMichelSteuart.png"
 import atleta3 from "../imgs/Team/FotoCarla.png"
