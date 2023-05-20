@@ -42,6 +42,13 @@ html {
   margin: 10px 10px 0px 10px;
 }
 
+@media (min-width:769px) and (max-width: 1600px){
+  .titleContainerViandas img{
+    scale: 0.8;
+    margin: 5px -7px 0px -7px;
+  }
+}
+
 @media (max-width:769px) {
   .titleContainerViandas img{
     display: none;
@@ -62,7 +69,13 @@ html {
   font-weight: 600;
 }
 
-@media (min-width:769px) {
+@media (min-width: 768px) and (max-width: 1600px){
+  .componentTitle{
+    font-size: 2.3rem;
+  } 
+}
+
+@media (min-width:1600px) {
   .componentTitle{
     font-size: 3rem;
   }  
@@ -106,6 +119,18 @@ html {
   border-radius: 2rem;
   object-fit: cover;
 }
+
+@media (min-width: 768px) and (max-width:1600px) {
+  .tranding-slide {
+    width: 19rem !important;
+    height: auto !important;
+  }
+  .tranding-slide .tranding-slide-img img {
+    width: 15rem !important;
+    height: auto !important;
+  }
+}
+
 
 @media (max-width:769px) {
   .tranding-slide {
@@ -153,16 +178,30 @@ div .swiper-pagination-bullet-active {
 
 }
 
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0px 1px!important;
+}
+
 .swiper-3d .swiper-slide{
   width: 200px;
 }
 
-@media (min-width:769px) {
+@media (min-width:1600px) {
   .swiper-3d .swiper-slide{
     width: 400px;
   }
   .swiper-3d {
     width: 60%;
+  }
+}
+
+
+@media (min-width: 769px) and (max-width: 1599px) {
+  .swiper-3d .swiper-slide{
+    width: 300px;
+  }
+  .swiper-3d {
+    width: 50%;
   }
 }
 

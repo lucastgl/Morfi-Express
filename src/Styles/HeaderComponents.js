@@ -36,10 +36,18 @@ export const FirstTitle = styled.h1`
         color: #6CBD45;
         font-weight: 700;
     }
-    @media screen and (min-width: 768px) {
+
+    @media screen and (min-width: 767px) and (max-width: 1600px) {
+        margin-left: 10vw;
+        font-size: 3rem;
+        width: 47%;
+        margin-top: 90px; 
+    }
+
+    @media screen and (min-width: 1600px) {
         margin-left: 10vw;
         font-size: 4rem;
-        width: 40%; 
+        width: 60%; 
     }
 `;
 
@@ -49,7 +57,15 @@ export const SubTitle = styled.p`
     font-size: 16px;
     padding-bottom: 28px;
     width: 300px;
-    @media screen and (min-width: 768px) {
+
+
+    @media screen and (min-width: 767px) and (max-width: 1600px) {
+        margin-left: 10vw;
+        font-size: 1.5rem;
+        width: 36%;
+    }
+
+    @media screen and (min-width: 1600px) {
         margin-left: 10vw;
         font-size: 1.8rem;
         width: 28%;
@@ -66,7 +82,14 @@ export const ContactButton = styled.button`
     border-radius: 10px;
     padding: 4px 8px;
     border-style: none;
-    @media screen and (min-width: 768px) {
+
+    @media screen and (min-width: 767px) and (max-width: 1600px) {
+        margin-left: 10vw;
+        font-size: 1.5rem; 
+    }
+
+
+    @media screen and (min-width: 1600px) {
         margin-left: 10vw;
         font-size: 1.9rem; 
     }

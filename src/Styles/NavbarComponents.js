@@ -14,6 +14,8 @@ export const NavContainer = styled.div`
     transform: translateY(0);
     transition: transform 0.3s ease, background-color 0.3s ease; 
 
+
+
     @media screen and (max-width: 768px) {
         justify-content: center;
     }
@@ -32,6 +34,7 @@ export const Logo = styled.img`
 export const NavigationContent = styled.ul`
     display: flex;
     margin-right: 10vw;
+
     @media screen and (max-width: 768px) {
         display: none;
     }
@@ -59,5 +62,9 @@ export const NavItem = styled.li`
     &:hover::after {
         left: 0;
         width: 100%;
+    }
+
+    @media screen and (min-width: 767px) and (max-width: 1600px) {
+        font-size: 1rem;
     }
 `;
