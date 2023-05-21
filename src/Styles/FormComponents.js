@@ -25,10 +25,8 @@ export const FormBGgradient = styled.div`
     justify-content: center;
     align-items: center;
     @media screen and (min-width: 760px) and (max-width: 1599px){
-        background: linear-gradient(270deg, rgba(0,0,0,0.4150035014005602) 16%, rgba(0,0,0,0.8631827731092436) 21%, rgba(0,0,0,0.9164040616246498) 25%, rgba(0,0,0,0.9192051820728291) 29%, rgba(0,0,0,0.9808298319327731) 35%, rgba(0,0,0,1) 50%);
         align-items: start;
-        //background: linear-gradient(257deg, rgba(0,0,0,0) 7%, rgba(0,0,0,0.9304096638655462) 35%, rgba(0,0,0,1) 47%, rgba(22,22,22,1) 87%);
-
+        background: linear-gradient(257deg, rgba(0,0,0,0) 7%, rgba(0,0,0,0.9304096638655462) 35%, rgba(0,0,0,1) 47%, rgba(22,22,22,1) 87%);
     }
     @media screen and (min-width: 1600px){
         padding-left: 150px;
