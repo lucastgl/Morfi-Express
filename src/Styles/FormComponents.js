@@ -12,6 +12,9 @@ export const FormBGImage = styled.div`
     @media screen and (min-width: 760px){
         background-position: right;
     }
+    @media screen and (min-width: 1600px){
+        height: 75vh;
+    }
 `;
 
 export const FormBGgradient = styled.div`
@@ -24,11 +27,15 @@ export const FormBGgradient = styled.div`
     @media screen and (min-width: 760px) and (max-width: 1599px){
         background: linear-gradient(270deg, rgba(0,0,0,0.4150035014005602) 16%, rgba(0,0,0,0.8631827731092436) 21%, rgba(0,0,0,0.9164040616246498) 25%, rgba(0,0,0,0.9192051820728291) 29%, rgba(0,0,0,0.9808298319327731) 35%, rgba(0,0,0,1) 50%);
         align-items: start;
+        //background: linear-gradient(257deg, rgba(0,0,0,0) 7%, rgba(0,0,0,0.9304096638655462) 35%, rgba(0,0,0,1) 47%, rgba(22,22,22,1) 87%);
 
     }
     @media screen and (min-width: 1600px){
         padding-left: 150px;
         background: linear-gradient(257deg, rgba(0,0,0,0) 7%, rgba(0,0,0,0.9304096638655462) 35%, rgba(0,0,0,1) 47%, rgba(22,22,22,1) 87%);
+        align-items: start;
+        height: 75vh;
+    }
 `;
 
 export const LastTitle = styled.h2`
@@ -37,17 +44,24 @@ export const LastTitle = styled.h2`
     font-weight: 400;
     text-align: center;
     margin-bottom: 20px;
+    margin-top: 30px;
     @media screen and (min-width: 768px) and (max-width: 1599px){
         padding-left: 90px;
         font-size: 2.3rem;
+        margin-top: 30px;
     }
     @media screen and (min-width: 1600px){
         font-size: 3rem;
+        margin-top: 60px;
+        padding-left: 40px;
+
     }      
 `;
 
 export const FormContainer = styled.div`
     width: 80%;
+    justify-content: start;
+    padding-bottom: 50px;
     @media screen and (min-width: 760px) and (max-width: 1599px){
         width: 45%;
         padding-left: 40px;
@@ -55,6 +69,7 @@ export const FormContainer = styled.div`
     }
     @media screen and (min-width: 1600px){
         width: 40%;
+        padding-bottom: 50px;
     }
 `;
 

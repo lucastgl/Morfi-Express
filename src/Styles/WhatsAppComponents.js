@@ -2,11 +2,11 @@ import styled from 'styled-components';
 
 export const WspContainer = styled.div`
   position: fixed;
-  bottom: 40px; /* Modificado: aumentado para que el botón esté un poco más arriba */
+  bottom: 40px;
   right: 20px;
   z-index: 1000;
   @media (max-width: 768px) {
-    bottom: 30px; /* Modificado: aumentado para que el botón esté un poco más arriba en dispositivos móviles */
+    bottom: 30px; 
     right: 15px;
   }
 `;
@@ -27,10 +27,7 @@ export const LinkWsp = styled.a`
 `;
 
 export const WspLogo = styled.img`
-  width: 100%; /* Modificado: cambiado a 100% para que la imagen ocupe todo el contenedor */
-  height: 100%; /* Modificado: cambiado a 100% para que la imagen ocupe todo el contenedor */
-  object-fit: contain; /* Añadido: para mantener la proporción de la imagen al ocupar el 100% del contenedor */
-  @media (max-width: 768px) {
-    /* No se requieren cambios aquí, la imagen ya ocupa el 100% del contenedor */
-  }
+  width: 100%; 
+  height: 100%; 
+  object-fit: contain; 
 `;

@@ -75,60 +75,60 @@ const Form = () => {
         <LastTitle>¡Déjanos tu <span style={{color: "#6CBD45", fontWeight: 600}}>mensaje</span>!</LastTitle>
         <FormContainer form="register">
           <form  id="register-form" onSubmit={handleSubmit}>
-          <FistPart>
-            <Container key={1}>
+            <FistPart>
+              <Container key={1}>
+                <Input
+                  name="nombre"
+                  placeholder="Nombre"
+                  value={values["nombre"]}
+                  onChange={(e) => setFieldValue("nombre", e.target.value)}
+                />
+                {
+                  errors["nombre"] &&(
+                    <Error>{errors["nombre"]}</Error>
+                  )
+                }
+              </Container>
+              <Container key={2}>
+                <Input
+                  name="mail"
+                  placeholder="Mail"
+                  value={values["mail"]}
+                  onChange={(e) => setFieldValue("mail", e.target.value)}
+                />
+                {
+                  errors["mail"] &&(
+                    <Error>{errors["mail"]}</Error>
+                  )
+                }
+              </Container>
+            </FistPart>
+            <Container key={3}>
               <Input
-                name="nombre"
-                placeholder="Nombre"
-                value={values["nombre"]}
-                onChange={(e) => setFieldValue("nombre", e.target.value)}
+                name="asunto"
+                placeholder="Asunto"
+                value={values["asunto"]}
+                onChange={(e) => setFieldValue("asunto", e.target.value)}
               />
               {
-                errors["nombre"] &&(
-                  <Error>{errors["nombre"]}</Error>
+                errors["asunto"] &&(
+                  <Error>{errors["ausnto"]}</Error>
                 )
               }
             </Container>
-            <Container key={2}>
-              <Input
-                name="mail"
-                placeholder="Mail"
-                value={values["mail"]}
-                onChange={(e) => setFieldValue("mail", e.target.value)}
+            <Container key={4}>
+              <Textarea
+                name='mensaje'
+                placeholder='Mensaje'
+                value={values['mensaje']}
+                onChange={(e) => setFieldValue('mensaje', e.target.value)}
               />
               {
-                errors["mail"] &&(
-                  <Error>{errors["mail"]}</Error>
+                errors["mensaje"] &&(
+                  <Error>{errors["mensaje"]}</Error>
                 )
               }
             </Container>
-          </FistPart>
-          <Container key={3}>
-            <Input
-              name="asunto"
-              placeholder="Asunto"
-              value={values["asunto"]}
-              onChange={(e) => setFieldValue("asunto", e.target.value)}
-            />
-            {
-              errors["asunto"] &&(
-                <Error>{errors["ausnto"]}</Error>
-              )
-            }
-          </Container>
-          <Container key={4}>
-            <Textarea
-              name='mensaje'
-              placeholder='Mensaje'
-              value={values['mensaje']}
-              onChange={(e) => setFieldValue('mensaje', e.target.value)}
-            />
-            {
-              errors["mensaje"] &&(
-                <Error>{errors["mensaje"]}</Error>
-              )
-            }
-          </Container>
 
           </form>
           <ButtonContainer>
