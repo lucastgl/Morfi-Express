@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const StepsContainer = styled.div`
+    background-color: white;
     min-height: 85vh;
     display: flex;
     flex-direction: column;
