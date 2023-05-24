@@ -92,7 +92,9 @@ export const RedesSociales = styled.ul`
     @media screen and (min-width: 760px) and (max-width: 1599px) {
         margin-bottom: 60px;
     }
-
+    @media screen and (min-width: 1600px) {
+        margin-bottom: 60px;
+    }
 `;
 
 export const RedSocial = styled.li`

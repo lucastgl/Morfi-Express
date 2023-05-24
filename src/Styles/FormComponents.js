@@ -65,7 +65,7 @@ export const FormContainer = styled.div`
         padding-bottom: 60px;
     }
     @media screen and (min-width: 1600px){
-        width: 63%;
+        width: 50%;
         padding-bottom: 50px;
     }
 `;

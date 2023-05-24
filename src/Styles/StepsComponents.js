@@ -140,5 +140,6 @@ export const ContactButton = styled.button`
     @media screen and (min-width: 1600px) {
         margin: 70px 0px 50px 0px;
         font-size: 2rem;
+        padding: 4px 20px ; 
     }
 `;
