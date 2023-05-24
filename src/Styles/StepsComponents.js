@@ -10,10 +10,12 @@ export const StepsContainer = styled.div`
     
     @media screen and (min-width: 768px) and (max-width: 1400px){
         min-height: auto!important;
+        padding: 20px 0px;
     } 
     
     @media screen and (min-width: 1400px) {
         min-height: 70vh;
+        padding-top: 20px;
     } 
 `;
 
@@ -35,6 +37,9 @@ export const FourthTitle = styled.h2`
             margin: 0px -15px;
             display: block;
             scale: .8;
+        }
+        span{
+            margin: 0px 9px;
         }
     }     
 
@@ -129,7 +134,8 @@ export const ContactButton = styled.button`
     margin: 40px 0px;
 
     @media screen and (min-width: 768px) and (max-width: 1599px){
-        font-size: 20px;
+        font-size: 1.5rem;
+        padding: 4px 20px ; 
     }
     @media screen and (min-width: 1600px) {
         margin: 70px 0px 50px 0px;

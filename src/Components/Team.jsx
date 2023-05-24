@@ -41,7 +41,7 @@ const Team = () => {
         
         <div className='titleContainer'>
           <img  src={line} className='line'/>
-          <h2 className='componentTitleTeam'><span style={{color: 'green'}}>Atletas</span> que hemos ayudado en su alimentación</h2>
+          <h2 className='componentTitleTeam'><span style={{color: '#6CBD45'}}>Atletas</span> que hemos ayudado en su alimentación</h2>
           <img  src={line} className='line' style={{transform: "rotate(180deg)"}}/>
         </div>
         

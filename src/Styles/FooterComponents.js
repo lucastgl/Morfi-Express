@@ -18,12 +18,13 @@ export const FooterContent = styled.div`
 export const Logo = styled.img`
     margin-top: 65px;
     @media screen and (min-width: 760px) and (max-width: 1599px) {
-        margin-top: 30px;
-        width: 10vw;
+        margin-top: 60px;
+        width: 7vw;
         height: auto;
     }
     @media screen and (min-width: 1600px) {
-        width: 10vw;
+        margin-top: 60px;
+        width: 7vw;
         height: auto;
         margin-bottom: 30px;
     } 
@@ -51,7 +52,7 @@ export const Container = styled.div`
     justify-content: center;
     margin: 15px 0px;
     @media screen and (min-width: 760px) {
-        margin: 15px 30px 40px 30px;    
+        margin: 40px 30px 40px 30px;    
         width: 25%;
     } 
 `;
@@ -62,9 +63,11 @@ export const Subtitle = styled.p`
     font-size: 20px;
     @media screen and (min-width: 760px) and (max-width: 1599px) {
         font-size: 1.6rem;
+        padding-bottom: 10px;
     } 
     @media screen and (min-width: 1600px) {
         font-size: 2rem;
+        padding-bottom: 15px;
     } 
 `;
 
@@ -87,7 +90,7 @@ export const RedesSociales = styled.ul`
     display: flex;
     margin-bottom: 20px;
     @media screen and (min-width: 760px) and (max-width: 1599px) {
-        margin-bottom: 10px;
+        margin-bottom: 60px;
     }
 
 `;

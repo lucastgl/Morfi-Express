@@ -46,13 +46,12 @@ export const LastTitle = styled.h2`
     @media screen and (min-width: 768px) and (max-width: 1599px){
         padding-left: 90px;
         font-size: 2.3rem;
-        margin-top: 30px;
+        margin-top: 60px;
     }
     @media screen and (min-width: 1600px){
         font-size: 3rem;
         margin-top: 60px;
         padding-left: 40px;
-
     }      
 `;
 
@@ -61,12 +60,12 @@ export const FormContainer = styled.div`
     justify-content: start;
     padding-bottom: 50px;
     @media screen and (min-width: 760px) and (max-width: 1599px){
-        width: 45%;
+        width: 57%;
         padding-left: 40px;
-        padding-bottom: 50px;
+        padding-bottom: 60px;
     }
     @media screen and (min-width: 1600px){
-        width: 40%;
+        width: 63%;
         padding-bottom: 50px;
     }
 `;
@@ -104,7 +103,7 @@ export const Input = styled.input`
         color: #aaaaaa;
     }
     @media screen and (min-width: 769px) and (max-width: 1599px){
-        height: 35px;
+        height: 40px;
         font-size: 0.9rem;
         ::placeholder {
             font-family: 'Roboto', sans-serif;
@@ -113,7 +112,7 @@ export const Input = styled.input`
         }
     }
     @media screen and (min-width: 1600px){
-        height: 45px;
+        height: 50px;
         font-size: 1.2rem;
         ::placeholder {
             font-family: 'Roboto', sans-serif;
@@ -146,6 +145,7 @@ export const Textarea = styled.textarea`
             font-family: 'Roboto', sans-serif;
             font-weight: 400;
             color: #f0f0f0;
+            font-size: 2rem;
         }
     }  
     @media screen and (min-width: 1600px){
@@ -197,12 +197,12 @@ export const Button = styled.button`
     font-weight: 500;
     font-size: 20px;
     border-radius: 10px;
-    padding: 4px 10px;
+    padding: 4px 20px;
     border-style: none;
     margin-top: 30px;
     scale: 1.20;
     @media screen and (min-width: 769px) and (max-width: 1599px){
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
     @media screen and (min-width: 1600px){
         font-size: 1.6rem;

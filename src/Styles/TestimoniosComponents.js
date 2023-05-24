@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const TestimoniosContainer = styled.section`
     background-color: black;
-    padding-top: 20px;
+    padding: 60px 0px;
 `;
 
 export const TitleContainer = styled.div`
@@ -10,7 +10,7 @@ export const TitleContainer = styled.div`
     margin: 0;
     display: flex;
     justify-content: center;
-   align-items: center;
+    align-items: center;
     margin-bottom: 30px;
 `;
 
@@ -36,7 +36,6 @@ export const TestimoniosTitle = styled.h2`
         width: auto;
         margin: 0px 20px;
         font-size: 2.5rem;
-        margin-top: 30px;
     } 
     @media screen and (min-width: 1600px) {
         width: auto;
@@ -64,11 +63,11 @@ export const ComillasUp = styled.img`
     margin-left: 30px; 
     @media screen and (min-width: 768px) and (max-width: 1599px) {
         margin-left: 20vw;
-        width: 45px;    
+        width: 55px;    
     } 
     @media screen and (min-width: 1600px) {
         margin-left: 20vw;
-        width: 60px;    
+        width: 70px;    
     } 
 `;
 
@@ -83,13 +82,13 @@ export const ComillasDown = styled.img`
 
     @media screen and (min-width: 768px) and (max-width: 1599px){
         margin-right: 20vw;
-        width: 45px;
+        width: 55px;
         margin-bottom: 40px;
     } 
 
     @media screen and (min-width: 1600px) {
         margin-right: 20vw;
-        width: 60px;
+        width: 70px;
         margin-bottom: 40px;
     } 
 `;
@@ -102,7 +101,7 @@ export const TestimoniosParte1 = styled.div`
     @media screen and (min-width: 768px) {
         flex-direction: row;
         width: 50%;
-        margin: 20px 20px;
+        margin: 20px 20px 10px 20px;
     } 
 `;
 
@@ -114,7 +113,7 @@ export const TestimoniosParte2 = styled.div`
     @media screen and (min-width: 768px) {
         flex-direction: row;
         width: 50%;
-        margin: 20px 20px;
+        margin: 10px 20px 20px 20px;
     } 
 `;
 
@@ -131,9 +130,13 @@ export const Testimonio = styled.div`
     border-radius: 5px;
     @media screen and (min-width: 768px) and (max-width: 1599px){
         font-size: 1rem;
+        padding: 20px 15px;
+        margin: 20px 20px 10px 20px;
     }
     @media screen and (min-width: 1600px) {
         font-size: 1.8rem;
+        padding: 20px 15px;
+        margin: 20px 20px 10px 20px;
     } 
 `;
 

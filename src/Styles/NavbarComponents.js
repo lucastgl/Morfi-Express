@@ -14,8 +14,6 @@ export const NavContainer = styled.div`
     transform: translateY(0);
     transition: transform 0.3s ease, background-color 0.3s ease; 
 
-
-
     @media screen and (max-width: 768px) {
         justify-content: center;
     }
@@ -51,7 +49,7 @@ export const NavItem = styled.li`
     &::after {
         content: '';
         position: absolute;
-        bottom: 0;
+        bottom: -3px;
         left: 50%;
         width: 0;
         height: 2px; 

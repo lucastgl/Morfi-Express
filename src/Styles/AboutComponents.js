@@ -44,7 +44,7 @@ export const ThirdtTitle = styled.h2`
 
     @media only screen and (min-width: 768px) and (max-width: 1599px) {
         margin-left: 10vw;
-        margin-bottom: 15px;
+        margin-bottom: 25px;
         font-size: 2.4rem;
         width: 40%; 
     } 

@@ -85,12 +85,13 @@ export const ContactButton = styled.button`
 
     @media screen and (min-width: 767px) and (max-width: 1600px) {
         margin-left: 10vw;
+        padding: 4px 20px;
         font-size: 1.5rem; 
     }
 
-
     @media screen and (min-width: 1600px) {
         margin-left: 10vw;
-        font-size: 1.9rem; 
+        font-size: 1.9rem;
+        padding: 4px 20px; 
     }
 `;

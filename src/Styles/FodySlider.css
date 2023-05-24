@@ -163,8 +163,9 @@ div .swiper-pagination-bullet {
   margin: 10px;
   border-radius: 3px;
   scale: 0.6;
-  width: 20px!important; 
+  width: 25px!important;
   transition: background-color 0.3s ease, width 0.3s ease; 
+  padding-top: 7px!important;
 }
 
 div .swiper-pagination-bullet-active {
@@ -174,7 +175,8 @@ div .swiper-pagination-bullet-active {
   margin: 10px;
   border-radius: 3px;
   scale: 0.6;
-  width: 45px!important; 
+  width: 60px!important;
+  padding-top: 7px!important; 
 
 }
 
