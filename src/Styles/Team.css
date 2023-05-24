@@ -98,13 +98,13 @@ html {
 }
 
 #team .trandingSliderTeam {
-    width: 70%;
+    width: 100%;
     height: auto;
     padding-bottom: 150px;
     position: relative;
 }
 
-@media (max-width: 1600px){
+@media (min-width: 769px){
   #team .trandingSliderTeam {
     width: 70%;
     height: auto;
