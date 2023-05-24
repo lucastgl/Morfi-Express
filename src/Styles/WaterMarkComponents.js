@@ -28,12 +28,12 @@ export const Brand = styled.div`
     align-items: center;
     @media screen and (min-width: 760px) and (max-width: 1599px) {
         scale: 1;
-        padding-left: 25px;
+        padding-left: 140px;
     }
     @media screen and (min-width: 1600px) {
         margin: 15px 0px;
         scale: 1.5;
-        padding-left: 35px;
+        padding-left: 270px;
     }
 `;
 
@@ -41,11 +41,11 @@ export const CopyRight = styled.p`
     @media screen and (min-width: 760px) and (max-width: 1599px) {
         margin-bottom: 0px;
         scale: 1;
-        padding-right: 25px;
+        padding-right: 140px;
     }
     @media screen and (min-width: 1600px) {
         margin: 15px 0px;
         font-size: 1.42rem;
-        padding-right: 35px;
+        padding-right: 270px;
     }
 `;

@@ -25,11 +25,12 @@ export const FormBGgradient = styled.div`
     justify-content: center;
     align-items: center;
     @media screen and (min-width: 760px) and (max-width: 1599px){
+        padding-left: 80px;
         align-items: start;
         background: linear-gradient(257deg, rgba(0,0,0,0) 7%, rgba(0,0,0,0.9304096638655462) 35%, rgba(0,0,0,1) 47%, rgba(22,22,22,1) 87%);
     }
     @media screen and (min-width: 1600px){
-        padding-left: 150px;
+        padding-left: 250px;
         background: linear-gradient(257deg, rgba(0,0,0,0) 7%, rgba(0,0,0,0.9304096638655462) 35%, rgba(0,0,0,1) 47%, rgba(22,22,22,1) 87%);
         align-items: start;
         height: 75vh;
@@ -190,23 +191,32 @@ export const ButtonContainer = styled.div`
 `;
 
 export const Button = styled.button`
-    color: white;
-    background-color: #6CBD45;
-    font-family: 'Barlow', sans-serif;
-    font-style: italic;
-    font-weight: 500;
-    font-size: 20px;
-    border-radius: 10px;
-    padding: 4px 20px;
-    border-style: none;
-    margin-top: 30px;
-    scale: 1.20;
-    @media screen and (min-width: 769px) and (max-width: 1599px){
-        font-size: 1.5rem;
-    }
-    @media screen and (min-width: 1600px){
-        font-size: 1.6rem;
-    }
+  color: white;
+  background-color: #6CBD45;
+  font-family: 'Barlow', sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 4px 20px;
+  border: none;
+  margin-top: 30px;
+  border: 3px solid transparent;
+  transition: background-color 0.3s, border-color 0.3s;
+  transform: scale(1.2);
+
+  @media screen and (min-width: 769px) and (max-width: 1599px) {
+    font-size: 1.5rem;
+  }
+
+  @media screen and (min-width: 1600px) {
+    font-size: 1.6rem;
+  }
+
+  &:hover {
+    background-color: #4C8133;
+    border-color: #6CBD45;
+  }
 `;
 
 

@@ -73,25 +73,31 @@ export const SubTitle = styled.p`
 `;
 
 export const ContactButton = styled.button`
-    color: white;
-    background-color: #6CBD45;
-    font-family: 'Barlow', sans-serif;
-    font-style: italic;
-    font-weight: 500;
-    font-size: 20px;
-    border-radius: 10px;
-    padding: 4px 8px;
-    border-style: none;
+  color: white;
+  background-color: #6CBD45;
+  font-family: 'Barlow', sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 4px 8px;
+  border: 3px solid transparent;
+  transition: background-color 0.3s, border-color 0.3s;
 
-    @media screen and (min-width: 767px) and (max-width: 1600px) {
-        margin-left: 10vw;
-        padding: 4px 20px;
-        font-size: 1.5rem; 
-    }
+  @media screen and (min-width: 767px) and (max-width: 1600px) {
+    margin-left: 10vw;
+    padding: 4px 20px;
+    font-size: 1.5rem;
+  }
 
-    @media screen and (min-width: 1600px) {
-        margin-left: 10vw;
-        font-size: 1.9rem;
-        padding: 4px 20px; 
-    }
+  @media screen and (min-width: 1600px) {
+    margin-left: 10vw;
+    font-size: 1.9rem;
+    padding: 4px 20px;
+  }
+
+  &:hover {
+    background-color: #4C8133;
+    border-color: #6CBD45;
+  }
 `;

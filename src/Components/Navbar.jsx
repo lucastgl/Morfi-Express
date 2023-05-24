@@ -35,7 +35,7 @@ const Navbar = () => {
   return (
     <NavContainer
       style={{
-        backgroundColor: scrolled ? '#4C8133' : 'rgba(0, 0, 0, 0)',
+        backgroundColor: scrolled ? '#10140E' : 'rgba(0, 0, 0, 0)',
         transform: hidden ? 'translateY(-100%)' : 'translateY(0)',
       }}
     >
