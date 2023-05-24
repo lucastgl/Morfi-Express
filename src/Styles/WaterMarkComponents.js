@@ -45,7 +45,7 @@ export const CopyRight = styled.p`
     }
     @media screen and (min-width: 1600px) {
         margin: 15px 0px;
-        scale: 1.5;
+        font-size: 1.42rem;
         padding-right: 35px;
     }
 `;
