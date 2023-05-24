@@ -84,7 +84,7 @@ export const Data = styled.p`
     }
 `;
 
-export const RedesSociales = styled.ul`
+export const RedesSociales = styled.div`
     padding: 0;
     list-style: none;
     display: flex;
@@ -97,6 +97,25 @@ export const RedesSociales = styled.ul`
     }
 `;
 
-export const RedSocial = styled.li`
+export const RedSocial = styled.button`
     margin: 0px 15px;
+    padding: 2.5px 2px 2px 2px;
+    background-color: #6CBD45;
+    border-radius: 28px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease, border-color 0.3s ease; /* Agregamos una transición suave */
+    border: 3px solid transparent; /* Establecemos un borde transparente por defecto */
+    
+    &:hover {
+        background-color: #4C8133; /* Cambia el fondo al color #4C8133 al colocar el cursor */
+        border: 3px solid #6CBD45; /* Establece un borde de 3 píxeles de color #6CBD45 al colocar el cursor */
+    }
+    
+    a {
+        img {
+            padding: 7px;
+            width: 50px;
+        }
+    }
 `;

@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const WspContainer = styled.div`
   position: fixed;
   bottom: 40px;
-  right: 2px;
+  right: 100px;
   z-index: 1000;
   @media (max-width: 768px) {
     bottom: 30px; 
