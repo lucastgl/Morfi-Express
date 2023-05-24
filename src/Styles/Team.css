@@ -104,6 +104,19 @@ html {
     position: relative;
 }
 
+
+#team .trandingSliderTeam::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: radial-gradient(circle, rgba(0,0,0,0) 91%, rgba(0,0,0,0.36948546508447133) 94%, rgba(0,0,0,1) 98%, rgba(0,0,0,1) 100%);
+  pointer-events: none;
+  z-index: 10;
+}
+
 @media (min-width: 769px){
   #team .trandingSliderTeam {
     width: 100%;

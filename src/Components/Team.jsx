@@ -44,7 +44,7 @@ const Team = () => {
           <h2 className='componentTitleTeam'><span style={{color: '#6CBD45'}}>Atletas</span> que hemos ayudado en su alimentación</h2>
           <img  src={line} className='line' style={{transform: "rotate(180deg)"}}/>
         </div>
-        
+
         <div className="swiper trandingSliderTeam">
           <div className="swiper-wrapper">
 
