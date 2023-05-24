@@ -8,7 +8,7 @@ const Header = () => {
       <Navbar/>
       <HeaderContainer>
         <FirstTitle>¡Simplifica tu <span>alimentación</span> con nuestras viandas!</FirstTitle>
-        <SubTitle>Mientras nosotros nos ocupamos de tu dieta, ¡Tú te concentrás en tus objetivos!</SubTitle>
+        <SubTitle>Mientras nosotros nos ocupamos de tu comida, ¡Tú te concentrás en tus objetivos!</SubTitle>
         <Link to="form" spy={true} smooth={true} offset={-100} duration={500}>
           <ContactButton>¡Contáctanos!</ContactButton>
         </Link>

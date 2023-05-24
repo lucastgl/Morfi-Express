@@ -23,7 +23,7 @@ const GaleriaViandas = () => {
     <div className="containerViandas">
         <div className='titleContainerViandas'>
             <img src={line}/>
-            <h2 className='componentTitle'>¡Tu <span style={{color: '#6CBD45'}}>dieta</span> en las mejores manos!</h2>
+            <h2 className='componentTitle'>¡Tus <span style={{color: '#6CBD45'}}>comidas</span> en las mejores manos!</h2>
             <img src={line} style={{transform: "rotate(180deg)"}}/>
         </div>
         <Swiper
