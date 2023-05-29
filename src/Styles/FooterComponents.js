@@ -104,12 +104,12 @@ export const RedSocial = styled.button`
     border-radius: 28px;
     display: flex;
     align-items: center;
-    transition: background-color 0.3s ease, border-color 0.3s ease; /* Agregamos una transición suave */
-    border: 3px solid transparent; /* Establecemos un borde transparente por defecto */
+    transition: background-color 0.3s ease, border-color 0.3s ease; 
+    border: 3px solid transparent; 
     
     &:hover {
-        background-color: #4C8133; /* Cambia el fondo al color #4C8133 al colocar el cursor */
-        border: 3px solid #6CBD45; /* Establece un borde de 3 píxeles de color #6CBD45 al colocar el cursor */
+        background-color: #4C8133;
+        border: 3px solid #6CBD45;
     }
     
     a {
