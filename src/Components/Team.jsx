@@ -91,7 +91,7 @@ const Team = () => {
             <div className="swiper-slide trandingSlide">
               <div className="trandingSlideImg">
                 <img src={atleta6} alt="Atleta" className="backgroundImg" />
-                <p className="atletaIg">@vapiky_ifbbpro</p>
+                <p className="atletaIg">@franbarriosvlk</p>
                 <p className="atletaTitle">IFBB Pro Bodybuilder</p>
               </div>
             </div>
