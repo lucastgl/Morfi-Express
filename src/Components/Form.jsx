@@ -6,9 +6,9 @@ import { FormBGImage, FormBGgradient, LastTitle, FormContainer, Container, FistP
 
 const VALIDACION_EMAIL = /^(([^<>()\[\]\\.,;:\s@”]+(\.[^<>()\[\]\\.,;:\s@”]+)*)|(“.+”))@((\[[0–9]{1,3}\.[0–9]{1,3}\.[0–9]{1,3}\.[0–9]{1,3}])|(([a-zA-Z\-0–9]+\.)+[a-zA-Z]{2,}))$/;
 const VALIDACION_NOMBRE = /^(?=\S)(?=.*\S$).{8,}$/;
-const SERVICE_ID = "service_zi7cqqc";
-const TEMPLATE_ID = "template_ruffvlw";
-const PUBLIC_KEY = "TsHpcgF90daGqRZO_";
+const SERVICE_ID = "";
+const TEMPLATE_ID = "";
+const PUBLIC_KEY = "";
 
 const Form = () => {
 

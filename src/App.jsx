@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import './App.css'
 import About from './Components/About'
 import Steps from './Components/Steps'
@@ -22,8 +22,8 @@ function App() {
     n.queue=[];t=b.createElement(e);t.async=!0;
     t.src=v;s=b.getElementsByTagName(e)[0];
     s.parentNode.insertBefore(t,s)}(window, document,'script',
-    'url');
-    fbq('init', 'codigo');
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '4650603041680222');
     fbq('track', 'PageView');
   }, []);
 
